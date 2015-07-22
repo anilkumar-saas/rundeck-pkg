@@ -1,0 +1,12 @@
+<plugin name='metricsweb' version='2.0.0-SNAPSHOT' grailsVersion='2.2 &gt; *'>
+  <author>Greg Schueler</author>
+  <title>Metricsweb Plugin</title>
+  <description>Adds the Metrics 3.x AdminServlet at a configurable path, adds the InstrumentedFilter to add metrics around
+each HTTP reqest, and provides some utility methods to Controllers and Services for using metrics.
+</description>
+  <documentation>http://rundeck.org</documentation>
+  <type>MetricswebGrailsPlugin</type>
+  <resources>
+    <resource>org.grails.plugins.metricsweb.MetricService</resource>
+  </resources>
+</plugin>

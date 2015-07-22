@@ -1,0 +1,2 @@
+function PageConfirm(b){var a=this;a.message=b;a.needConfirm=!1;a.setNeedsConfirm=function(){a.needConfirm=!0};a.clearNeedConfirm=function(){a.needConfirm=!1};a.watchConfirm=function(b){jQuery(b).on("change",a.setNeedsConfirm)};jQuery(function(){window.onbeforeunload=function(){if(a.needConfirm)return a.message};jQuery(document.body).find(":input").on("change",a.setNeedsConfirm);jQuery(document.body).find(":input").on("keydown",a.setNeedsConfirm);jQuery(document.body).find(".reset_page_confirm").on("click",
+a.clearNeedConfirm)})};
