@@ -1,3 +1,3 @@
-# So far we can just drop the URL to the download for the rundeck plugin:
+# So far we can just drop the URL here to download each rundeck plugin:
 https://github.com/rundeck-plugins/rundeck-ec2-nodes-plugin/releases/download/1.5/rundeck-ec2-nodes-plugin-1.5.jar
 https://github.com/rundeck-plugins/rundeck-s3-log-plugin/releases/download/v1.0.0/rundeck-s3-log-plugin-1.0.0.jar
