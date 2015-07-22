@@ -7,7 +7,7 @@ Krux specific packaging of rundeck.
 
 ## Bundled plugins
 
-Plugins are defined in the [plugins.list](plugins.list.2.5.2-1) file.
+Plugins are defined in the [plugins.list](plugins.list-2.5.2-1) file.
 
 ## Updating the source
 
